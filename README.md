@@ -18,4 +18,4 @@ import Search from "./components/Search"
 ## Best practice
 import { Content, FilterButtons, Search } from "./components"
 
-I also had to make it 100% dynamic by waiting for the data in my FilterButtons.jsx, because I noticed that I was getting undefined before I get the data. So I tried async and await but seems that didn't work. So cleaned up and commented my thought process
+I also had to make it 100% dynamic by waiting for the data in my FilterButtons.jsx, because I noticed that I was getting undefined before I get the data. So I tried async and await but seems that didn't work. So cleaned up the async await and commented some other thought process
