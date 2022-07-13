@@ -1,13 +1,13 @@
 import React from 'react'
 
-const Search = ({handleSearch}) => {
+const Search = ({handleFilter}) => {
  return (
   <div>
    <input
     type="text"
     placeholder="Search"
     className="form-control"
-    onChange={handleSearch}
+    onChange={handleFilter}
    />
   </div>
  )

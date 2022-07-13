@@ -29,18 +29,14 @@ function App() {
       .then(data => setData(data.data.person))
   }, [])
 
-  const handleSearch = (e) => {
-    setQuery(e.target.value)
-  }
-
-  const handleAllFilter = (e) => {
+  const handleFilter = (e) => {
     setQuery(e.target.value)
   }
 
   return (
     <div className="container">
-      <Search handleSearch={handleSearch} />
-      <FilterButtons handleAllFilter={handleAllFilter} setQuery={setQuery} />
+      <Search handleFilter={handleFilter} />
+      <FilterButtons handleFilter={handleFilter} setQuery={setQuery} data={data} />
       <Content data={data} query={query} />
     </div>
   );
