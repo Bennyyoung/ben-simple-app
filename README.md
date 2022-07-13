@@ -10,7 +10,9 @@ My decision was so I follow react best practices, If you notice that inside my c
 
 ## Bad practice
 import Content from "./components/Content"
+
 import FilterButtons from "./components/FilterButtons"
+
 import Search from "./components/Search"
 
 ## Best practice
