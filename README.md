@@ -1,4 +1,22 @@
-# Decisions and Shortcuts
+# Shortcuts
+
+Run 'yarn global graphql-faker' Install the package
+
+Run 'graphql-faker --open' in your terminal and you would see something like this
+
+✔ Your GraphQL Fake API is ready to use 🚀
+
+  Here are your links:
+
+  ❯ Interactive Editor: [http://localhost:9002/editor]
+
+  ❯ GraphQL API:        [http://localhost:9002/graphql]
+
+  ❯ GraphQL Voyager:    [http://localhost:9002/voyager]
+
+Paste the content of my schema.faker.graphql in the following link [http://localhost:9002/editor]
+
+# Decisions  
 
 I created a components folder and inside I had Content.jsx, FilterButtons.jsx and Search.jsx.
 
