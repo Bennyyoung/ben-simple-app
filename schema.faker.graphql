@@ -1,0 +1,12 @@
+type Person {
+  id: ID
+  date: String @fake(type: date)
+  name: String @fake(type: fullName)
+  country: String @fake(type: country)
+  organization: String @fake(type: companyName)
+  image: String @fake(type: imageUrl)
+}
+
+type Query {
+  person: [Person] @listLength(min: 20, max: 90)
+}

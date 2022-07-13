@@ -1,13 +1,75 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.data {
+  display: flex
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.data-left {
+  flex: 1;
+  margin-right: 3rem;
+
+}
+
+.date {
+  margin-left: 5rem
+}
+
+img {
+  border-radius: 50%
+}
+
+.data-right {
+  flex: 3
+}
+
+.bio-container {
+  margin-top: 3rem
+}
+
+.form-control {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  text-indent: 50%
+}
+
+.filter-container {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.filter-button1 {
+  flex: 3;
+}
+.filter-button1 button {
+  padding-left: 4rem;
+  padding-right: 4rem;
+  margin-right: 3rem;
+}
+
+.filter-button2 {
+  flex: 3
+}
+
+.filter-button2 button {
+  padding-left: 4rem;
+  padding-right: 4rem;
+  margin-right: 3rem;
+}
+
+.filter-button3 {
+  flex: 3
+}
+
+.filter-button3 button {
+  padding-left: 4rem;
+  padding-right: 4rem;
+  margin-right: 3rem;
+}
+
+.filter-button4 {
+  flex: 3
+}
+
+.filter-button4 button {
+  padding-left: 4rem;
+  padding-right: 4rem;
+  margin-right: 3rem;
 }
