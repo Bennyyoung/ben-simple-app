@@ -8,13 +8,13 @@ Run 'graphql-faker --open' in your terminal and you would see something like thi
 
   Here are your links:
 
-  ❯ Interactive Editor: [http://localhost:9002/editor][http://localhost:9002/editor]
+  ❯ Interactive Editor: [http://localhost:9002/editor](http://localhost:9002/editor)
 
-  ❯ GraphQL API:        [http://localhost:9002/graphql][http://localhost:9002/graphql]
+  ❯ GraphQL API:        [http://localhost:9002/graphql](http://localhost:9002/graphql)
 
-  ❯ GraphQL Voyager:    [http://localhost:9002/voyager][http://localhost:9002/voyager]
+  ❯ GraphQL Voyager:    [http://localhost:9002/voyager](http://localhost:9002/voyager)
 
-Paste the content of my schema.faker.graphql in the following link [http://localhost:9002/editor][http://localhost:9002/editor]
+Paste the content of my schema.faker.graphql in the following link [http://localhost:9002/editor](http://localhost:9002/editor)
 
 # Decisions  
 
